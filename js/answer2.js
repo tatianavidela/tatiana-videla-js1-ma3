@@ -50,8 +50,6 @@ async function makeApiCall (){
     catch (error) {
         resultsContainer.innerHTML = "Sorry. An error occurred"
     }
-
-
 }
 
 makeApiCall();

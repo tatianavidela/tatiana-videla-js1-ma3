@@ -11,3 +11,21 @@
 	padding: 10px;
 	border: solid black 1px;
 }
+
+.loader {
+	width: 60px;
+	height: 60px;
+	border: 8px solid cornflowerblue;
+	border-top: 8px solid transparent;
+	border-radius: 50%;
+	animation: spin 0.5s linear 0s infinite;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(358deg);
+	}
+}
